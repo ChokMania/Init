@@ -1,0 +1,17 @@
+[ - ]  console-setup.sh
+[ + ]  cron
+[ + ]  dbus
+[ - ]  hwclock.sh
+[ + ]  irqbalance
+[ - ]  keyboard-setup.sh
+[ + ]  kmod
+[ + ]  networking
+[ + ]  procps
+[ - ]  rsync
+[ + ]  rsyslog
+[ + ]  ssh
+[ - ]  sudo
+[ + ]  udev
+
+Ils s'appellent les :
+deamon

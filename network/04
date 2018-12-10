@@ -1,1 +1,1 @@
-netstat -rn | head -5
+netstat -nr | grep default | head -1 | awk '{printf $2}'

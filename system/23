@@ -1,0 +1,4 @@
+su "utilisateur"
+tapez le mdp
+sinon
+sudo su "utilisateur" quand on est root
