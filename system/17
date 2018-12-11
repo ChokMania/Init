@@ -1,1 +1,1 @@
-ssh login@localhost
+sudo ssh LOGIN@HOSTNAME
