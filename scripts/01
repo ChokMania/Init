@@ -1,0 +1,2 @@
+#!/bin/bash
+cat /etc/passwd | awk -F: '{print "\033[32mLogin: \033[0m"$1"\033[34m UID: \033[0m"$3 "\033[31m Path: \033[0m"$6}' | column -t
