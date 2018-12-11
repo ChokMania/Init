@@ -30,15 +30,9 @@ do
 			echo "Write the commit message :"
 			read MSG
 			git commit -m "$MSG"
+			git push
 			if [ $? -eq 0 ];then
-				git push
-				if [ $? -eq 0 ];then
-					echo "\n\nSUCCESS"
-				else
-					echo "\n\nERROR : You can't do that\n\n"
-					echo "Press Enter to continue"
-					read INPUT
-				fi
+				echo "\n\nSUCCESS"
 			else
 				echo "\n\nERROR : You can't do that\n\n"
 				echo "Press Enter to continue"
