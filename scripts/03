@@ -31,7 +31,6 @@ do
 			read MSG
 			git commit -m "$MSG"
 			if [ $? -eq 0 ];then
-				echo "\n\nSUCCESS"
 				git push
 				if [ $? -eq 0 ];then
 					echo "\n\nSUCCESS"
