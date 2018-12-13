@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo deluser --force $(USERDEL)
+sudo deluser --force
